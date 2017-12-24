@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://subbu" xmlns:xs_new="http://subbu"
+	elementFormDefault="qualified">
+
+<xs:element name="employees"></xs:element>
+
+	<xs:complexType name="employee">
+		<xs:sequence>
+			<xs:element name="eid" type="xs:integer"></xs:element>
+			<xs:element name="ename" type="xs:string"></xs:element>
+		</xs:sequence>
+</xs:complexType>
+
+<xs:element name="hero"  type="xs:string"></xs:element>
+
+</xs:schema>
+

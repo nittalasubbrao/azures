@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs_new:employees xmlns:xs_new="http://subbu"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://subbu NewXMLSchema.xsd ">
+	<xs_new:eid>0123</xs_new:eid>
+	<xs_new:ename>"hero"</xs_new:ename>
+</xs_new:employees>
